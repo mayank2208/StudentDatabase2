@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "3363449657",
+    "firebase_url": "https://fir-242e6.firebaseio.com",
+    "project_id": "fir-242e6",
+    "storage_bucket": "fir-242e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3363449657:android:7357f73527cda812",
+        "android_client_info": {
+          "package_name": "com.mayankbathla.studentdatabase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3363449657-t0l20iaikgptuip2qamg1gdnar4h6q6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mayankbathla.studentdatabase2",
+            "certificate_hash": "eec3a6667143acb524d0a62008e9edbf157cd855"
+          }
+        },
+        {
+          "client_id": "3363449657-japdoln16ct3ns0rl9849ice3risttc8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "3363449657-japdoln16ct3ns0rl9849ice3risttc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq1_oPvE5FIPApe5NDbsp1AV-6UsNUM-M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3363449657-japdoln16ct3ns0rl9849ice3risttc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
