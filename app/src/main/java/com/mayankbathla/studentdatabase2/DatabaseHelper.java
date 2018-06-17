@@ -68,7 +68,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         String selectQuery = " SELECT * FROM " + TABLE_NAME ;
 
-        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        SQLiteDatabase sqLiteDatabase = this.getReadableDatabase();
 
         Cursor cursor = sqLiteDatabase.rawQuery(selectQuery, null);
 

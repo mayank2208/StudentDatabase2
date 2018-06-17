@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
-
+    android:background="#13e9e2">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to the Student Database"
-        android:textSize="25sp"
-        android:textColor="#f20d0d"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="2dp"
-        android:paddingRight="2dp"/>
+        android:text="Student Management Portal"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        />
 
-
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_sample"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_centerInParent="true">
+        android:gravity="center_horizontal">
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ADD"
             android:id="@+id/btn_add"
-            android:shadowColor="#ef1414"
-            android:onClick="lauchAddActivity"/>
+            android:text="ADD"
+           android:layout_gravity="center"
+            android:onClick="lauchAddActivity"
+            />
 
         <Button
+            android:id="@+id/btn_display"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="DISPLAY"
-            android:id="@+id/btn_display"
-            android:onClick="lauchDisplayActivity"/>
+            android:onClick="lauchDisplayActivity"
+            android:layout_gravity="center"
+
+            />
+
     </LinearLayout>
 
-</RelativeLayout>
+
+
+</FrameLayout>

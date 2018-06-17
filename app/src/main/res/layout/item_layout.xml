@@ -1,28 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingTop="6dp"
     android:paddingLeft="8dp"
     android:paddingRight="8dp"
    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#34f210dc"
+    >
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Student Name1"
+        android:fontFamily="bold"
+        android:textSize="30sp"
         android:textColor="#000"
         android:id="@+id/student_name"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColorLink="#ec0a0a"
+        android:textColorHighlight="#13c216"/>
+
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/student_name"
-        android:text="Recycler Number"
+        android:text="College Name"
+        android:textColorHighlight="#dabf0c"
         android:textColor="#000"
         android:paddingBottom="6dp"
         android:id="@+id/recycler_number"
+        android:textColorLink="#0ff8fc"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="lauchDisplayActivity2"
+
+        app:srcCompat="@mipmap/ic_launcher_round" />
 
 </RelativeLayout>
